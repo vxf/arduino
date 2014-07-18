@@ -14,6 +14,6 @@ AVRDUDE_ISP_BAUDRATE = 57600
 AVRDUDE_ARD_PROGRAMMER = arduino
 AVRDUDE_ARD_BAUDRATE = 57600
 
-include /home/vxf/stage/Arduino-Makefile/Arduino.mk
+include ../Arduino-Makefile/Arduino.mk
 
 # !!! Important. You have to use make ispload to upload when using ISP programmer

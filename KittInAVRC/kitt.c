@@ -20,8 +20,8 @@ int main(void)
   int r = 0x1;
   int up = 1;
 
-	while (1)
-	{
+  while (1)
+  {
     if (up)
     {
       if (r == 0x200)
@@ -50,5 +50,5 @@ int main(void)
         for(k = 0xFF; k > 0; k--)
           {}
 
-	}
+  }
 }
